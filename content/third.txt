@@ -1,0 +1,2 @@
+This is 3rd file created by writeSync.
+ Hey I am here.
