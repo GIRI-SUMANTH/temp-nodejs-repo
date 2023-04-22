@@ -1,8 +1,10 @@
-let amt = 0
+let amt = 10
 if (amt > 0)
-    console.log('good');
+    console.log('Positive number');
+else if(amt===0)
+    console.log('Zero');
 else
-    console.log('not bad');
+    console.log('Negative number');
 
 // GLOBALS
 
@@ -38,3 +40,5 @@ process     - info about env of program
 // create package.json in root folder, & create props
 // npm init -y (All set to default)
 // npm init (Step by step installation, click Enter to skip)
+
+// Nodemon will watch and restarts automatically after changes
